@@ -51,14 +51,14 @@
     // ==============================================
     // レビューボタンの描画
     // ==============================================
-    const reviewBtn = createSendMsgBtnElem('レビュー', 'レビュー');
+    const reviewBtn = createSendMsgBtnElem('レビュー依頼', 'レビュー');
     reviewBtn.style.marginLeft = 'auto'; // NOTE: 右寄せする
     btnContainer.insertAdjacentElement('beforeend', reviewBtn);
 
     // ==============================================
     // ヘルプボタンの描画
     // ==============================================
-    const questionBtn = createSendMsgBtnElem('ヘルプ', 'ヘルプ');
+    const questionBtn = createSendMsgBtnElem('ヘルプ依頼', 'ヘルプ');
     btnContainer.insertAdjacentElement('beforeend', questionBtn);
 
     clearInterval(itvl);
